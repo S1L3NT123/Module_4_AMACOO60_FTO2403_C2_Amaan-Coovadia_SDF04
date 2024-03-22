@@ -1,6 +1,12 @@
 # [SDF04] CSS Magic Buttons
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
+Btn-1 animation is a simple hover animation which changes the background color the position of the box and makes the text italic.
+
+Btn-2 is a more complicated animation. when the cursor hovers over the button two lines move towards the centre of the button merge and change the colour of the button(like two lasers colliding). the main issue is that there are 4 span tags used when only two are displayed (left and right) this is because the vertical tags would be obstructing the other buttons. the reason they are not removed is that I don't know how to keep the span tag in positions 1 and 3 (vertical). I thought about assigning them IDs and then setting their positions but chose to just keep span tags 2 and 4 empty.
+
+Btn-3 is the most complicated animation as it slides from right to left of the screen when the page is loaded. when hovering over the button flips 90 degrees to reveal the 🎉 emoji.
+
+<!-- Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
 
 ## Learning Goals
 
@@ -21,9 +27,9 @@ By completing this project, you will learn to:
 
     - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_4_StudentNo_Classcode_Group_Name-Surname_SDF04
 
-2. **Write your CSS Styles**: Create your animations from scratch. You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
+2. **Write your CSS Styles**: Create your animations from scratch. You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX).
 
-3. **Prepare Your Repository**: 
+3. **Prepare Your Repository**:
     - Save all chanes and update your GitHub repository with the final versions of all files.
     - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
     - Ensure your repository is set to public so it can be accessed by your code coach.
@@ -37,4 +43,4 @@ Embark on this CSS journey to transform simple buttons into interactive, animate
 ## Submission Guidelines
 - Submit the link to your GitHub repository on the LMS under the SDF04 project tab.
 
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life! -->
